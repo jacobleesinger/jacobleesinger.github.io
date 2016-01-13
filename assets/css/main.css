@@ -4153,3 +4153,8 @@
 	.avatar {
 		border-radius: 100%;
 	}
+
+	.skill{
+		padding-left: 100px;
+		padding-right: 100px;
+	}

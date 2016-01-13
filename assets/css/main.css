@@ -1683,7 +1683,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 	}
 
 		a:hover {
@@ -2300,7 +2300,7 @@
 		}
 
 	.icon {
-		color: #e0e0e0;
+		color: #999999;
 	}
 
 /* Image */
@@ -4157,4 +4157,8 @@
 	.skill{
 		padding-left: 100px;
 		padding-right: 100px;
+	}
+
+	.icon a{
+		color: #999999;
 	}

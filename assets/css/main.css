@@ -4162,3 +4162,24 @@
 	.icon a{
 		color: #999999;
 	}
+
+	textarea {
+		resize: none;
+	}
+
+	.contactFormElement {
+		margin: 10px;
+		border: 1px solid darkslategrey;
+		background-color: inherit;
+	}
+
+	/*#three {
+		background-color: cornflowerblue;
+		color: white;
+
+	}*/
+
+	#three form {
+		/*background-color: blue;*/
+		padding: 20px;
+	}

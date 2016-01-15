@@ -4175,6 +4175,10 @@
 
 
 
-	#three form {
+.projectLink {
+	color: cornflowerblue;
+}
 
-	}
+.projectLink:hover {
+	text-decoration: underline;
+}

@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Jacob Singer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       body {
         display: flex;
@@ -15,7 +16,6 @@
       .content-box {
         margin: 30px;
         margin-top: 100px;
-        padding: 30px;
         max-width: 600px;
         display: flex;
         flex-direction: column;
@@ -29,6 +29,16 @@
       p {
         font-size: 16px;
         text-align: center;
+      }
+
+      @media screen and (max-width: 767px) {
+        .content-box {
+          margin: 20px;
+          margin-top: 40px;
+        }
+        h1 {
+          font-size: 30px;
+        }
       }
     </style>
   </head>
